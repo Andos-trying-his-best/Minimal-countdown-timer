@@ -1,0 +1,54 @@
+*{
+    color: white;
+    font-family: 'Roboto';
+}
+body{
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    background-color: rgba(19, 19, 19, 0.603);
+    width: 30rem;
+    height: 20rem;
+    padding: 3rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.headsection{
+    display: flex;
+    justify-content: space-around;
+    gap: 4rem;
+    align-items: center;
+}
+#sec15{
+    background-color: rgba(255, 255, 255, 0.11);
+}
+#sec15,#sec30,#sec45{
+    padding-inline: 1.0rem;
+    padding-block: 0.5rem;
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+#counter{
+    font-size: 11rem;
+    font-weight: 800;
+    
+}
+#start{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding-inline: 2.5rem;
+    padding-block: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    transition: all 0.4s ease;
+}
